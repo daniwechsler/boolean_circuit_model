@@ -2,8 +2,10 @@
 
 C++ source code of the Boolean circuit model used in:
 
-Wechsler, D., and J. Bascompte. 2021. Cheating in mutualisms promotes diversity
-and complexity. <br /> *The American Naturalist*, in press.
+Wechsler, D., and J. Bascompte. 2022. Cheating in mutualisms promotes diversity
+and complexity. <br /> *The American Naturalist* 199.
+
+ Volume 199, Issue 3
 
 <br />
 Some of the parameters in the program code are not documented in the manuscript. For the simulation experiments done in the manuscript the default values of these parameters were used. 
