@@ -8,7 +8,7 @@ and complexity. <br /> *The American Naturalist* 199.
 
 
 <br />
-Some of the parameters in the program code are not documented in the manuscript. For the simulation experiments done in the manuscript the default values of these parameters were used. 
+Some of the parameters in the program code are not documented in the manuscript. For the simulation experiments presented in the manuscript the default values of these parameters were used. 
 
 Further, there are differences with regard to the names of certain model parameters and variables between the model description in the manuscript and the code. Specifically, these differences are:
 
@@ -38,7 +38,7 @@ Further, the program uses the [GNU Scientific Library (GSL)](https://www.gnu.org
 ## INSTALLATION AND EXECUTION
 
 To compile and install the program, run the following commands 
-in a terminal (in the root directory of the progject):
+in a terminal (in the root directory of the project):
 
 `$ cmake .`
 
@@ -75,7 +75,7 @@ Column        | Content
 `N_passive_X` | The number of plant individuals of type `X`. Where `X` is an integer in `{0, (2^n)-1}` that identifies the plant type (see table below).
 `payoff_passive_X` | The payoff of plants of type `X`.
 `N_active_Y` | The number of animals with phenotype `Y`. Where `Y` is an integer in `{0, (2^(2^n))-1}` that identifies the phenotype (see table below). There exists only a column for a phenotype if it appeared at least once during the simulation.		
-`avg_payoff_active_Y` | The average payoff of animals with phenotype `Y`. The payoff of animals with the same phenotype can be different if the parameter `d` is `> 0`. The parameter `d` specifies the cost for a logic gate. For the submitted manuscript we considered only `d=0`.
+`avg_payoff_active_Y` | The average payoff of animals with phenotype `Y`. The payoff of animals with the same phenotype can be different if the parameter `d` is `> 0`. The parameter `d` specifies the cost for a logic gate. In Wechsler and Bascompte, 2022 we considered only `d=0`.
 `avg_num_gates_Y` | The average number of logic gates of the animals with phenotype `Y`.
 
 The following table illustrates, by means of an example with 3 traits, 
